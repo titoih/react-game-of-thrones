@@ -10,6 +10,7 @@ class Episode extends React.Component {
   }
 
   render() {
+    
     const { episode, isFavourite } = this.props
     
     const summaryLong = episode.summary.replace(/<p>/g, '').replace(/<\/p>/g, '')
